@@ -37,6 +37,12 @@
 
 }
 
+
+.flex-container{
+  display: flex;
+}
+
+
 .flex-container div {
 background-color: rgb(243, 185, 255);
  border: 4px solid brown;
@@ -45,17 +51,16 @@ background-color: rgb(243, 185, 255);
   margin-right:617px ;
   margin-left: 8px;
   margin-top: 20px;
-
- 
+  padding-right: 450px;
+  flex: 1;
 }
 
 .two, .three {
   background-color: rgb(243, 185, 255);
   border: 4px solid brown;
   height: 90px;
-  margin-left: 600px;
+  margin-left: 500px;
   margin-right: 8px;
-  
 }
 .two{
   margin-top: -208px;
