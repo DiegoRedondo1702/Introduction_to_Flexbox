@@ -51,7 +51,7 @@ gap: 0.5rem;
 }
 
 .one{
-  background-color: rgb(233, 79, 156);
+  background-color: rgb(243, 198, 221);
   border: 5px solid brown;
   height: 15rem;
   flex: 1;
@@ -65,7 +65,7 @@ gap: 0.5rem;
 }
 
 .two, .three{
-  background-color: rgb(233, 79, 156);
+  background-color: rgb(243, 198, 221);
   border: 5px solid brown;
   flex: 1;
 }
