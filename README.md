@@ -4,6 +4,8 @@
 
 > Learning about flexbox
 
+![screenshot](./app_screenshot.PNG)
+
 ## Built With
 
 - Major languages
