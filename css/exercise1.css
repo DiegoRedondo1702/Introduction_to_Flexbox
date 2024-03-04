@@ -1,19 +1,21 @@
-.container{
-  background-color: lightblue;
-  padding: 16px;
-  border: 4px solid blue;
-  margin: 8px;
-  display: flex;
-  grid-template-columns: repeat(auto-fit, 100px);
-  grid-auto-rows: 100px;
-  gap: 2rem 1rem;
-}
 .container_primary{
   background-color: rgb(126, 255, 148);
   padding: 16px;
   border: 4px solid blue;
-  margin: 8px;
+  margin: 0px;
+
   
+}
+
+.container{
+  background-color: lightblue;
+  padding: 16px;
+  border: 4px solid blue;
+  margin: 10px 0px;
+  display: flex;
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-auto-rows: 100px;
+  gap: 2rem 1rem;
 }
 
 .item{
@@ -43,38 +45,37 @@
 }
 
 
-.flex-container div {
-background-color: rgb(243, 185, 255);
- border: 4px solid brown;
- height: 200px;
- 
-  margin-right:617px ;
-  margin-left: 8px;
-  margin-top: 20px;
-  padding-right: 450px;
+.flex-container{
+display: flex;
+gap: 0.5rem;
+}
+
+.one{
+  background-color: peachpuff;
+  border: 5px solid brown;
+  height: 15rem;
   flex: 1;
 }
 
-.two, .three {
-  background-color: rgb(243, 185, 255);
-  border: 4px solid brown;
-  height: 90px;
-  margin-left: 500px;
-  margin-right: 8px;
-}
-.two{
-  margin-top: -208px;
+.mini_flex{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.three{
-  margin-top: 12px;
+.two, .three{
+  background-color: peachpuff;
+  border: 5px solid brown;
+  flex: 1;
 }
+
 
 .container2{
   background-color: lightblue;
   padding: 16px;
   border: 4px solid blue;
-  margin: 8px;
+  margin: 0px;
   margin-top: 20px;
   display: flex;
   grid-template-columns: repeat(auto-fit, 100px);
@@ -85,25 +86,29 @@ background-color: rgb(243, 185, 255);
 .item2{
   background-color: rgb(226, 213, 255);
   border: 4px solid rgb(88, 26, 235);
-  height: 48px;
+  height: 50px;
   flex:1;
   padding: 4px;
   
 }
 
 .mini_item2{
-  background-color: peachpuff;
-  border: 4px solid salmon;
-  height: 48px;
-  flex:1;
-  padding-right: 30px;
-  padding-left: 150px;
-  padding-bottom: 7px;
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
 }
 #mini_item2{
   display: flex;
   grid-template-columns: repeat(auto-fit, 100px);
   grid-auto-rows: 100px;
   gap: 2rem 1rem;
+}
 
+.mini_mini{
+  background-color: peachpuff;
+  border: 4px solid salmon;
+  height: auto;
+  flex:1;
+  padding-left: 100px;
+  
 }
